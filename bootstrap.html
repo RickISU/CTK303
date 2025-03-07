@@ -21,6 +21,16 @@
         .social a {
           font-size: 2em;
         }
+
+        .hide {
+          clip: rect(0 0 0 0);
+          clip-path: inset(50%);
+          height: 1px;
+          overflow: hidden;
+          position: absolute;
+          white-space: nowrap;
+          width: 1px;
+        }
     </style>
   </head>
   <body>
@@ -115,7 +125,7 @@
 
       <div class="col social">
           <p><span class="fw-bold">Stay Connected</span><br>
-          <a href="https://facebook.com" class="bi bi-facebook"></a>
+          <a href="https://facebook.com" class="bi bi-facebook"><span class="hide">Facebook</span></a>
           <a href="https://twitter.com" class="bi bi-twitter"></a>
           <a href="https://instagram.com" class="bi bi-instagram"></a>
           <a href="https://linkedin.com" class="bi bi-linkedin"></a>
